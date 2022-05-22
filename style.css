@@ -1,0 +1,305 @@
+body {
+    background: rgb(70, 19, 19);
+    font: normal 15pt Arial;
+    overflow: hidden;
+}
+header {
+    color: white;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    font-size: 2em;
+    color: #e9f4ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: #FC0 1px 0 10px;
+    animation: blink 5s infinite;
+}
+
+section {
+    background: white;
+    border-radius: 10pt;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);
+}
+div {
+    text-align: center;
+    padding: 5px;
+    
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.broken {
+    animation: broken 5s linear infinite;
+}
+.broken2 {
+    animation: broken2 5s linear infinite;
+}
+.broken3 {
+    animation: broken2 5s linear infinite;
+}
+.broken4 {
+    animation: broken2 5s linear infinite;
+}
+.broken5 {
+    animation: broken2 5s linear infinite;
+}
+.broken6 {
+    animation: broken2 5s linear infinite;
+}
+.broken7 {
+    animation: broken2 5s linear infinite;
+}
+.broken8 {
+    animation: broken2 5s linear infinite;
+}
+
+
+@keyframes bubbles {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-1000%);
+    }
+}
+
+/* Palying with opacity */
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    15% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 1;
+    }
+    35% {
+        opacity: 0.85;
+    }
+    38% {
+        opacity: 0.5;
+    }
+    40% {
+        opacity: 0.96;
+    }
+    55% {
+        opacity: 0.9;
+    }
+    70% {
+        opacity: 1;
+    }
+    72% {
+        opacity: 0.65;
+    }
+    98% {
+        opacity: 0.93;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+/* Palying with text-shadow and color */
+
+@keyframes broken {
+    0%,
+    29%,
+    40%,
+    86% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    30%,
+    38% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken2 {
+    0%,
+    14%,
+    16%,
+    19%,
+    26%,
+    49%,
+    51%,
+    100% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    15%,
+    20%,
+    50% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken3 {
+    0%,
+    29%,
+    40%,
+    86% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    30%,
+    38% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken4 {
+    0%,
+    14%,
+    16%,
+    19%,
+    26%,
+    49%,
+    51%,
+    100% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    15%,
+    20%,
+    50% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken5 {
+    0%,
+    29%,
+    40%,
+    86% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    30%,
+    38% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken6 {
+    0%,
+    14%,
+    16%,
+    19%,
+    26%,
+    49%,
+    51%,
+    100% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    15%,
+    20%,
+    50% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken7 {
+    0%,
+    29%,
+    40%,
+    86% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    30%,
+    38% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+@keyframes broken8 {
+    0%,
+    14%,
+    16%,
+    19%,
+    26%,
+    49%,
+    51%,
+    100% {
+        text-shadow: #FC0 1px 0 10px;
+        color: #e9f4ff;
+    }
+    15%,
+    20%,
+    50% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+    88%,
+    98% {
+        color: #3f6486;
+        text-shadow: none;
+    }
+}
+
+/* CSS variable for text shadow */
+/*
+:root {
+    --text-shadow:
+    0 0 10px #b6dcff,
+    0 0 24px #70baff,
+    -4px 2px 8px #70baff,
+    4px 2px 8px #70baff,
+    0 -8px -50px #2495ff,
+    0 8px 50px #2495ff,
+}
+*/
